@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+/**font-family: 'Cabin', sans-serif;**/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    width: 100%;
+    color: white;
+    background-color: rgb(29, 29, 114);
+    flex-wrap: wrap;
+    position: fixed;
+            
+}
+.inicio{
+    padding: 15px;
+    margin: 5px;
+    font-size: 20px;
+    
+}
+
+.navBar{
+    list-style: none;
+    display: flex;
+    width: 100;
+    gap: 10px;
+    margin: 15px;
+    padding: 10px;
+    align-self: flex-end;
+    text-align: right;
+           
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+.navBar li a:hover{
+        background-color:rgb(44, 44, 167);
+}
+.banner{
+    background-image: url(../img/bannerindex.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 100%;
+    margin: auto;
+    height: 40vh;
+    background-position: center;
+   
+    
+}
+h1{
+    font-family: 'Cabin', sans-serif;
+    color: rgb(0, 0, 2);
+    padding: 25px;
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: none;
+}
+
+section{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    padding: 100px;
+    text-shadow: 7px 4px 5px gray;
+}
+.parrafo p{
+    font-family: 'Cabin', initial;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 900;
+    margin: 10px;
+    
+}
+footer{
+    background-color: black;
+    background-size: 10px;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+      
+}
+h2{
+    font-family: 'Cabin', sans-serif;
+    text-shadow: none;
+    color: white;
+    font-size: 15px;
+}
+.bannerServicios{
+    background-image: url(../img/Servicios.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 100%;
+    margin: auto;
+    height: 40vh;
+    background-position: center;
+}
+
+.bannerProfecioinales{
+    background-image: url(../img/profesionales.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 100%;
+    margin: auto;
+    height: 40vh;
+    background-position: center;
+}
+.parrafoProf p{
+    font-family: 'Cabin', initial;
+    text-align: left;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 900;
+    margin: 10px;
+    display: flex;
+}
+.bannerTurnos{
+    background-image: url(../img/turnos.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 100%;
+    margin: auto;
+    height: 40vh;
+    background-position: center;
+}
+.formulario{
+    width: 40% ;
+    text-align: left;
+    font-family: 'Cabin', initial;
+}
+.bannerContacto{
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 100%;
+    margin: auto;
+    height: 40vh;
+    background-position: center;
+}
